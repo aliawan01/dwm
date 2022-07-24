@@ -1,3 +1,4 @@
+libxft_path=/home/ali/suckless/libxft
 # dwm version
 VERSION = 6.3
 
@@ -7,8 +8,8 @@ VERSION = 6.3
 PREFIX = /usr/local
 MANPREFIX = ${PREFIX}/share/man
 
-X11INC = /home/ali/suckless/libxft/include
-X11LIB = /home/ali/suckless/libxft/src/.libs
+X11INC = ${libxft_path}/include
+X11LIB = ${libxft_path}/src/.libs
 
 # Xinerama, comment if you don't want it
 XINERAMALIBS  = -lXinerama
